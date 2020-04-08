@@ -1,4 +1,6 @@
-# C++ program to illustrate a MILP model of 10 rounds SPECK32/64
+# C++ program to illustrate a MILP model of 10 rounds SPECK32/64.
+#.
+
 ========================================================================
     CONSOLE APPLICATION : related-key differential trail of SPECK32/64 Project Overview
 ========================================================================
