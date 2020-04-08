@@ -145,7 +145,7 @@ int main(int argc, char *argv[])
 {
 	GRBEnv *env = 0;
 	GRBVar *vars = 0;
-	ofstream outputFile("Print_Key_values.dat", ios::out);
+	ofstream outputFile("Print_Key_values.txt", ios::out);
 	if (!outputFile)
 	{
 		cerr << "some thing wrong during opening file!" << endl;
