@@ -1,4 +1,4 @@
-# Searching related-key differential for 10 rounds SPECK32/64 and find a weak key for it.
+# Searching related-key differential trails for 10 rounds SPECK32/64 and find a weak key for it.
 C++ program to illustrate a MILP model of 10 rounds SPECK32/64
 ========================================================================
     CONSOLE APPLICATION : related-key differential of SPECK32/64 Project Overview
