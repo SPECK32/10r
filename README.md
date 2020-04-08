@@ -1,9 +1,9 @@
 # C++ program to illustrate a MILP model of 10 rounds SPECK32/64.
-#.
 
-========================================================================
-    CONSOLE APPLICATION : related-key differential trail of SPECK32/64 Project Overview
-========================================================================
+
+========================================================================================
+    CONSOLE APPLICATION : related-key differential trail of SPECK32/64 Project Overview.
+
 
 
 The “SPECK_Related_Key_Diff.cpp” source code finds a related-key differential characteristic
