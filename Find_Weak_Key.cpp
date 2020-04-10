@@ -89,7 +89,7 @@ static void Modular_Addition(GRBEnv env, GRBModel& model, int r,
 	}
 	GRBVar d[BLOCK_SIZE];
 		for (int j = 0; j<BLOCK_SIZE; j++)
-			d[j] = model.addVar(0.0, 1.0, 0.0, GRB_BINARY);
+			d[j] = model.addVar(0.0, 2.0, 0.0, GRB_INTEGER);
 		model.update();
 	for (int i = 0; i <= BLOCK_SIZE - 1; i++) {
 		model.addConstr(x[r - 1][i] + y[r - 1][i] + z[r - 1][i] + c[r - 1][i] - 2* d[i] == 0);
